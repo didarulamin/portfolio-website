@@ -1,4 +1,10 @@
-section {
+.card {
+  display: flex;
+  padding: 20px;
+}
+.welcome-section {
+  background-image: url(./images/top-banner.png);
+  background-repeat: no-repeat;
   display: flex;
 
   padding-bottom: 150px;
@@ -6,14 +12,43 @@ section {
   height: 500px;
 }
 
-.welcome-section {
-  background-image: url(./images/top-banner.png);
-  background-repeat: no-repeat;
+.card-content1 {
+  border-left: 7px solid;
+  border-image: linear-gradient(180deg, lightSalmon, tomato);
+  border-image-slice: 1;
+  box-shadow: 10px 10px 40px gray;
+  border-radius: 5px;
+  height: 80%;
+  background-color: white;
+  padding: 30px;
+}
+
+.card-content2 {
+  border-left: 7px solid;
+  border-image: linear-gradient(180deg, blue, cyan);
+  border-image-slice: 1;
+  box-shadow: 10px 10px 40px gray;
+  border-radius: 5px;
+  height: 80%;
+  background-color: white;
+  padding: 30px;
 }
 .dream-section {
   background-image: url(./images/dream-bg.png);
   background-repeat: no-repeat;
   background-position: right;
+  display: flex;
+
+  padding-bottom: 150px;
+
+  height: 500px;
+}
+.experiences {
+  background-image: url(./images/exp-bg.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-position: left;
+  padding-bottom: 150px;
 }
 
 div img {
@@ -51,4 +86,8 @@ a {
 
 p {
   text-align: justify;
+}
+
+#footer {
+  text-align: center;
 }
