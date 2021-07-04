@@ -1,10 +1,19 @@
 section {
   display: flex;
-  background-image: url(/images/top-banner.png);
-  background-repeat: no-repeat;
+
   padding-bottom: 150px;
 
   height: 500px;
+}
+
+.welcome-section {
+  background-image: url(/images/top-banner.png);
+  background-repeat: no-repeat;
+}
+.dream-section {
+  background-image: url(/images/dream-bg.png);
+  background-repeat: no-repeat;
+  background-position: right;
 }
 
 div img {
